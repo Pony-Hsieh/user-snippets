@@ -1,0 +1,39 @@
+{
+    "console.log shortcut": {
+        "prefix": "lo",
+        "body": [
+            "console.log(\"${1}\", ${2});"
+            ],
+        "description": "console.log shortcut"
+    },
+    "console.table shortcut": {
+        "prefix": "cota",
+        "body": [
+            "console.table(\"${1}\", ${2});"
+        ],
+        "description": "console.table shortcut"
+    },
+    "for 迴圈": {
+        "prefix": "for",
+        "body": [
+            "for (let i = 0; i < array.length; i++) {",
+            "    $1",
+            "}"
+        ],
+        "description": "for 迴圈"
+    },
+    "宣告 let 變數": {
+        "prefix": "let",
+        "body": [
+            "let $1 = $2;"
+        ],
+        "description": "宣告 let 變數"
+    },
+    "宣告 const 常數": {
+        "prefix": "co",
+        "body": [
+            "const $1 = $2;"
+        ],
+        "description": "宣告 const 常數"
+    }
+}
